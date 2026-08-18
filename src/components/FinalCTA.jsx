@@ -25,14 +25,14 @@ function FinalCTA() {
 
           <div className="mt-10 flex flex-col gap-4 sm:flex-row">
             <a
-              href="mailto:hello@aurevia.com"
+              href="mailto:aureviafa@gmail.com"
               className="inline-flex items-center justify-center rounded-full bg-[#0B2E59] px-7 py-3.5 text-sm font-semibold text-white transition hover:-translate-y-0.5 hover:bg-[#123E6D]"
             >
               Book a Consultation
             </a>
 
             <a
-              href="mailto:hello@aurevia.com"
+              href="mailto:aureviafa@gmail.com"
               className="inline-flex items-center justify-center rounded-full border border-[#0B2E59]/20 px-7 py-3.5 text-sm font-medium transition hover:border-[#0B2E59]/50 hover:bg-[#0B2E59]/5"
             >
               Contact Aurevia

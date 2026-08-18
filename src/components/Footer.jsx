@@ -52,10 +52,17 @@ function Footer() {
 
             <div className="mt-5 space-y-3 text-sm text-white/50">
               <a
-                href="mailto:hello@aurevia.com"
-                className="block transition hover:text-white"
+                href="mailto:aureviafa@gmail.com"
+                className="block transition hover:text-[#C8A24A]"
               >
-                hello@aurevia.com
+                aureviafa@gmail.com
+              </a>
+
+              <a
+                href="tel:+254721387470"
+                className="block transition hover:text-[#C8A24A]"
+              >
+                0721 387470
               </a>
 
               <a
@@ -64,6 +71,7 @@ function Footer() {
               >
                 Book a Consultation →
               </a>
+
             </div>
           </div>
         </div>
