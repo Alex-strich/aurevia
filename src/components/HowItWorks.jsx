@@ -29,13 +29,13 @@ function HowItWorks() {
   return (
     <section
       id="how-it-works"
-      className="bg-white px-6 py-16 text-[#07111f] lg:px-8 lg:py-20"
+      className="bg-white px-6 py-16 text-[#0B2E59] lg:px-8 lg:py-20"
     >
       <div className="mx-auto max-w-7xl">
         {/* Header */}
         <div className="flex flex-col gap-5 lg:flex-row lg:items-end lg:justify-between">
           <div className="max-w-3xl">
-            <p className="text-sm font-medium uppercase tracking-[0.22em] text-[#b58d45]">
+            <p className="text-sm font-medium uppercase tracking-[0.22em] text-[#C8A24A]">
               How It Works
             </p>
 
@@ -59,13 +59,13 @@ function HowItWorks() {
             {steps.map((step, index) => (
               <article
                 key={step.number}
-                className="group relative rounded-2xl border border-slate-200 bg-white p-6 transition-all duration-300 hover:-translate-y-1 hover:border-[#c9a45c]/60 hover:shadow-lg"
+                className="group relative rounded-2xl border border-slate-200 bg-white p-6 transition-all duration-300 hover:-translate-y-1 hover:border-[#C8A24A]/60 hover:shadow-lg"
                 style={{
                   animationDelay: `${index * 100}ms`,
                 }}
               >
                 {/* Step marker */}
-                <div className="relative z-10 flex h-12 w-12 items-center justify-center rounded-full border border-[#c9a45c] bg-white text-sm font-semibold text-[#b58d45] transition-all duration-300 group-hover:bg-[#07111f] group-hover:text-white">
+                <div className="relative z-10 flex h-12 w-12 items-center justify-center rounded-full border border-[#C8A24A] bg-white text-sm font-semibold text-[#C8A24A] transition-all duration-300 group-hover:bg-[#0B2E59] group-hover:text-white">
                   {step.number}
                 </div>
 
@@ -77,7 +77,7 @@ function HowItWorks() {
                   {step.description}
                 </p>
 
-                <div className="mt-6 h-px w-8 bg-[#c9a45c] transition-all duration-300 group-hover:w-16" />
+                <div className="mt-6 h-px w-8 bg-[#C8A24A] transition-all duration-300 group-hover:w-16" />
               </article>
             ))}
           </div>
@@ -89,12 +89,12 @@ function HowItWorks() {
             Connect.
             <span className="text-slate-400"> Automate.</span>{" "}
             <span className="text-slate-400">Analyse.</span>{" "}
-            <span className="text-[#b58d45]">Act.</span>
+            <span className="text-[#C8A24A]">Act.</span>
           </p>
 
           <a
             href="#contact"
-            className="w-fit rounded-full bg-[#07111f] px-6 py-3 text-sm font-medium text-white transition-all duration-300 hover:-translate-y-0.5 hover:bg-[#102238]"
+            className="w-fit rounded-full bg-[#0B2E59] px-6 py-3 text-sm font-medium text-white transition-all duration-300 hover:-translate-y-0.5 hover:bg-[#123E6D]"
           >
             Talk to Aurevia →
           </a>

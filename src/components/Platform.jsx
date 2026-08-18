@@ -41,7 +41,7 @@ function DashboardMockup({ dashboard }) {
             Aurevia Intelligence
           </p>
 
-          <h3 className="mt-1 text-sm font-semibold text-[#07111f]">
+          <h3 className="mt-1 text-sm font-semibold text-[#0B2E59]">
             {dashboard.title}
           </h3>
         </div>
@@ -68,7 +68,7 @@ function DashboardMockup({ dashboard }) {
               {label}
             </p>
 
-            <p className="mt-1.5 text-base font-semibold tracking-tight text-[#07111f] sm:text-lg">
+            <p className="mt-1.5 text-base font-semibold tracking-tight text-[#0B2E59] sm:text-lg">
               {value}
             </p>
 
@@ -83,7 +83,7 @@ function DashboardMockup({ dashboard }) {
         <div className="rounded-xl border border-slate-100 p-4">
           <div className="flex items-center justify-between">
             <div>
-              <p className="text-xs font-medium text-[#07111f]">
+              <p className="text-xs font-medium text-[#0B2E59]">
                 Financial Performance
               </p>
 
@@ -123,13 +123,13 @@ function DashboardMockup({ dashboard }) {
                 >
                   <stop
                     offset="0%"
-                    stopColor="#c9a45c"
+                    stopColor="#C8A24A"
                     stopOpacity="0.22"
                   />
 
                   <stop
                     offset="100%"
-                    stopColor="#c9a45c"
+                    stopColor="#C8A24A"
                     stopOpacity="0"
                   />
                 </linearGradient>
@@ -143,7 +143,7 @@ function DashboardMockup({ dashboard }) {
               <path
                 d="M0 145 C45 125 55 130 90 112 S145 125 180 95 S235 90 270 78 S325 95 355 58 S420 68 450 48 S500 58 535 32 S570 45 600 20"
                 fill="none"
-                stroke="#c9a45c"
+                stroke="#C8A24A"
                 strokeWidth="3"
               />
             </svg>
@@ -160,8 +160,8 @@ function DashboardMockup({ dashboard }) {
         </div>
 
         {/* Insight */}
-        <div className="rounded-xl bg-[#07111f] p-4 text-white sm:p-5">
-          <p className="text-[9px] font-medium uppercase tracking-[0.15em] text-[#c9a45c]">
+        <div className="rounded-xl bg-[#0B2E59] p-4 text-white sm:p-5">
+          <p className="text-[9px] font-medium uppercase tracking-[0.15em] text-[#C8A24A]">
             Management Insight
           </p>
 
@@ -180,8 +180,8 @@ function DashboardMockup({ dashboard }) {
             </p>
           </div>
 
-          <div className="mt-5 flex items-center gap-2 text-[9px] text-[#c9a45c]">
-            <span className="h-1.5 w-1.5 rounded-full bg-[#c9a45c]" />
+          <div className="mt-5 flex items-center gap-2 text-[9px] text-[#C8A24A]">
+            <span className="h-1.5 w-1.5 rounded-full bg-[#C8A24A]" />
             Actionable insight
           </div>
         </div>
@@ -200,12 +200,12 @@ function Platform() {
   return (
     <section
       id="platform"
-      className="bg-slate-50 px-6 py-20 text-[#07111f] lg:px-8 lg:py-24"
+      className="bg-slate-50 px-6 py-20 text-[#0B2E59] lg:px-8 lg:py-24"
     >
       <div className="mx-auto max-w-7xl">
         {/* Header */}
         <div className="max-w-3xl">
-          <p className="text-xs font-semibold uppercase tracking-[0.22em] text-[#b58d45]">
+          <p className="text-xs font-semibold uppercase tracking-[0.22em] text-[#C8A24A]">
             Platform
           </p>
 
@@ -220,7 +220,7 @@ function Platform() {
         </div>
 
         {/* Dashboard tabs */}
-        <div className="mt-10 flex gap-2 overflow-x-auto pb-1">
+        <div className="mt-8 flex gap-2 overflow-x-auto pb-1">
           {dashboards.map((dashboard) => (
             <button
               key={dashboard.id}
@@ -228,8 +228,8 @@ function Platform() {
               onClick={() => setActiveDashboard(dashboard.id)}
               className={`shrink-0 rounded-full px-4 py-2 text-xs font-medium transition-all duration-300 ${
                 activeDashboard === dashboard.id
-                  ? "bg-[#07111f] text-white"
-                  : "border border-slate-200 bg-white text-slate-600 hover:border-slate-300 hover:text-[#07111f]"
+                  ? "bg-[#0B2E59] text-white"
+                  : "border border-slate-200 bg-white text-slate-600 hover:border-slate-300 hover:text-[#0B2E59]"
               }`}
             >
               {dashboard.label}

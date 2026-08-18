@@ -3,11 +3,11 @@ function Footer() {
     { label: "Solutions", href: "#solutions" },
     { label: "Platform", href: "#platform" },
     { label: "How It Works", href: "#how-it-works" },
-    { label: "Why Aurevia", href: "#why-aurevia" },
+    { label: "About", href: "#about" },
   ]
 
   return (
-    <footer className="bg-[#07111f] px-6 py-14 text-white lg:px-8">
+    <footer className="bg-[#0B2E59] px-6 py-14 text-white lg:px-8">
       <div className="mx-auto max-w-7xl">
         <div className="grid gap-12 md:grid-cols-2 lg:grid-cols-[1.5fr_1fr_1fr]">
           {/* Brand */}
@@ -27,7 +27,7 @@ function Footer() {
 
           {/* Navigation */}
           <div>
-            <p className="text-xs font-medium uppercase tracking-[0.18em] text-[#c9a45c]">
+            <p className="text-xs font-medium uppercase tracking-[0.18em] text-[#C8A24A]">
               Explore
             </p>
 
@@ -46,7 +46,7 @@ function Footer() {
 
           {/* Contact */}
           <div>
-            <p className="text-xs font-medium uppercase tracking-[0.18em] text-[#c9a45c]">
+            <p className="text-xs font-medium uppercase tracking-[0.18em] text-[#C8A24A]">
               Contact
             </p>
 
@@ -62,7 +62,7 @@ function Footer() {
                 href="#contact"
                 className="block transition hover:text-white"
               >
-                Book a Demo →
+                Book a Consultation →
               </a>
             </div>
           </div>

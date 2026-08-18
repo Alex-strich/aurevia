@@ -37,13 +37,13 @@ function AutomationDemo() {
   return (
     <section
       id="automation"
-      className="bg-[#07111f] px-6 py-24 text-white lg:px-8 lg:py-32"
+      className="bg-[#0B2E59] px-6 py-24 text-white lg:px-8 lg:py-32"
     >
       <div className="mx-auto max-w-7xl">
         {/* Header */}
         <div className="flex flex-col justify-between gap-10 lg:flex-row lg:items-end">
           <div className="max-w-3xl">
-            <p className="text-sm font-medium uppercase tracking-[0.22em] text-[#c9a45c]">
+            <p className="text-sm font-medium uppercase tracking-[0.22em] text-[#C8A24A]">
               Automation Demo
             </p>
 
@@ -61,9 +61,9 @@ function AutomationDemo() {
           {/* Demo button */}
           <button
             type="button"
-            className="group flex w-fit items-center gap-3 rounded-full border border-white/15 px-5 py-3 text-sm font-medium transition hover:border-[#c9a45c]/60 hover:text-[#c9a45c]"
+            className="group flex w-fit items-center gap-3 rounded-full border border-white/15 px-5 py-3 text-sm font-medium transition hover:border-[#C8A24A]/60 hover:text-[#C8A24A]"
           >
-            <span className="flex h-8 w-8 items-center justify-center rounded-full bg-[#c9a45c] text-[#07111f] transition-transform group-hover:scale-105">
+            <span className="flex h-8 w-8 items-center justify-center rounded-full bg-[#C8A24A] text-[#0B2E59] transition-transform group-hover:scale-105">
               ▶
             </span>
 
@@ -80,7 +80,7 @@ function AutomationDemo() {
             >
               {/* Number */}
               <div className="flex items-center justify-between">
-                <span className="text-sm font-medium text-[#c9a45c]">
+                <span className="text-sm font-medium text-[#C8A24A]">
                   {step.number}
                 </span>
 
@@ -111,14 +111,14 @@ function AutomationDemo() {
                     key={item}
                     className="flex items-center gap-2 text-xs text-white/60"
                   >
-                    <span className="h-1.5 w-1.5 rounded-full bg-[#c9a45c]" />
+                    <span className="h-1.5 w-1.5 rounded-full bg-[#C8A24A]" />
                     {item}
                   </div>
                 ))}
               </div>
 
               {/* Bottom accent */}
-              <div className="absolute bottom-0 left-0 h-px w-0 bg-[#c9a45c] transition-all duration-500 group-hover:w-full" />
+              <div className="absolute bottom-0 left-0 h-px w-0 bg-[#C8A24A] transition-all duration-500 group-hover:w-full" />
             </article>
           ))}
         </div>
@@ -128,7 +128,7 @@ function AutomationDemo() {
           <div className="grid lg:grid-cols-[0.8fr_1.2fr]">
             {/* Left */}
             <div className="flex flex-col justify-center border-b border-white/10 p-8 lg:border-b-0 lg:border-r lg:p-12">
-              <p className="text-xs font-medium uppercase tracking-[0.18em] text-[#c9a45c]">
+              <p className="text-xs font-medium uppercase tracking-[0.18em] text-[#C8A24A]">
                 The Aurevia workflow
               </p>
 
@@ -145,7 +145,7 @@ function AutomationDemo() {
               </p>
 
               <div className="mt-8 flex items-center gap-3 text-sm text-white/70">
-                <span className="h-2 w-2 rounded-full bg-[#c9a45c]" />
+                <span className="h-2 w-2 rounded-full bg-[#C8A24A]" />
                 Automated financial workflow
               </div>
             </div>
@@ -161,13 +161,13 @@ function AutomationDemo() {
               <div className="relative flex h-full flex-col justify-center gap-4">
                 {/* Source */}
                 <div className="flex items-center gap-4">
-                  <div className="flex h-14 w-14 shrink-0 items-center justify-center rounded-xl border border-white/10 bg-white/5 text-xs text-[#c9a45c]">
+                  <div className="flex h-14 w-14 shrink-0 items-center justify-center rounded-xl border border-white/10 bg-white/5 text-xs text-[#C8A24A]">
                     DATA
                   </div>
 
-                  <div className="h-px flex-1 bg-gradient-to-r from-[#c9a45c]/60 to-white/10" />
+                  <div className="h-px flex-1 bg-gradient-to-r from-[#C8A24A]/60 to-white/10" />
 
-                  <div className="rounded-xl border border-white/10 bg-[#07111f] px-5 py-3">
+                  <div className="rounded-xl border border-white/10 bg-[#0B2E59] px-5 py-3">
                     <p className="text-[10px] uppercase tracking-[0.12em] text-white/30">
                       Source
                     </p>
@@ -180,13 +180,13 @@ function AutomationDemo() {
 
                 {/* Processing */}
                 <div className="flex items-center gap-4">
-                  <div className="flex h-14 w-14 shrink-0 items-center justify-center rounded-xl border border-[#c9a45c]/20 bg-[#c9a45c]/10 text-xs text-[#c9a45c]">
+                  <div className="flex h-14 w-14 shrink-0 items-center justify-center rounded-xl border border-[#C8A24A]/20 bg-[#C8A24A]/10 text-xs text-[#C8A24A]">
                     AUTO
                   </div>
 
-                  <div className="h-px flex-1 bg-gradient-to-r from-[#c9a45c]/60 to-white/10" />
+                  <div className="h-px flex-1 bg-gradient-to-r from-[#C8A24A]/60 to-white/10" />
 
-                  <div className="rounded-xl border border-white/10 bg-[#07111f] px-5 py-3">
+                  <div className="rounded-xl border border-white/10 bg-[#0B2E59] px-5 py-3">
                     <p className="text-[10px] uppercase tracking-[0.12em] text-white/30">
                       Process
                     </p>
@@ -199,13 +199,13 @@ function AutomationDemo() {
 
                 {/* Dashboard */}
                 <div className="flex items-center gap-4">
-                  <div className="flex h-14 w-14 shrink-0 items-center justify-center rounded-xl border border-white/10 bg-white/5 text-xs text-[#c9a45c]">
+                  <div className="flex h-14 w-14 shrink-0 items-center justify-center rounded-xl border border-white/10 bg-white/5 text-xs text-[#C8A24A]">
                     VIEW
                   </div>
 
-                  <div className="h-px flex-1 bg-gradient-to-r from-[#c9a45c]/60 to-white/10" />
+                  <div className="h-px flex-1 bg-gradient-to-r from-[#C8A24A]/60 to-white/10" />
 
-                  <div className="rounded-xl border border-white/10 bg-[#07111f] px-5 py-3">
+                  <div className="rounded-xl border border-white/10 bg-[#0B2E59] px-5 py-3">
                     <p className="text-[10px] uppercase tracking-[0.12em] text-white/30">
                       Output
                     </p>
@@ -218,14 +218,14 @@ function AutomationDemo() {
 
                 {/* Insight */}
                 <div className="flex items-center gap-4">
-                  <div className="flex h-14 w-14 shrink-0 items-center justify-center rounded-xl bg-[#c9a45c] text-xs font-semibold text-[#07111f]">
+                  <div className="flex h-14 w-14 shrink-0 items-center justify-center rounded-xl bg-[#C8A24A] text-xs font-semibold text-[#0B2E59]">
                     ACT
                   </div>
 
-                  <div className="h-px flex-1 bg-gradient-to-r from-[#c9a45c] to-white/10" />
+                  <div className="h-px flex-1 bg-gradient-to-r from-[#C8A24A] to-white/10" />
 
-                  <div className="rounded-xl border border-[#c9a45c]/30 bg-[#c9a45c]/5 px-5 py-3">
-                    <p className="text-[10px] uppercase tracking-[0.12em] text-[#c9a45c]/60">
+                  <div className="rounded-xl border border-[#C8A24A]/30 bg-[#C8A24A]/5 px-5 py-3">
+                    <p className="text-[10px] uppercase tracking-[0.12em] text-[#C8A24A]/60">
                       Insight
                     </p>
 
@@ -245,7 +245,7 @@ function AutomationDemo() {
             <span className="text-white">Connect.</span>{" "}
             <span className="text-white">Automate.</span>{" "}
             <span className="text-white">Analyse.</span>{" "}
-            <span className="text-[#c9a45c]">Act.</span>
+            <span className="text-[#C8A24A]">Act.</span>
           </p>
         </div>
       </div>

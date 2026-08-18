@@ -1,15 +1,22 @@
+import aureviaLogo from "../assets/images/aurevia-logo.jpeg"
+
 function Navbar() {
   return (
-    <header className="fixed top-0 left-0 right-0 z-50 border-b border-white/10 bg-[#07111f]/90 backdrop-blur-xl">
+    <header className="fixed left-0 right-0 top-0 z-50 border-b border-white/10 bg-[#0B2E59]/90 backdrop-blur-xl">
       <div className="mx-auto flex h-20 max-w-7xl items-center justify-between px-6 lg:px-8">
         
-        {/* Logo */}
-        <a
-          href="#home"
-          className="text-xl font-semibold tracking-[0.2em] text-white"
-        >
-          AUREVIA
-        </a>
+        {/* Brand */}
+          <a
+            href="#home"
+            className="flex w-70 items-center"
+            aria-label="Aurevia Financial Advisory Ltd."
+          >
+          <img
+            src={aureviaLogo}
+            alt="Aurevia Financial Advisory Ltd."
+            className="h-auto w-full object-contain"
+          />
+          </a>
 
         {/* Desktop Navigation */}
         <nav className="hidden items-center gap-8 md:flex">
@@ -35,19 +42,19 @@ function Navbar() {
           </a>
 
           <a
-            href="#why-aurevia"
+            href="#about"
             className="text-sm text-white/70 transition hover:text-white"
           >
-            Why Aurevia
+            About
           </a>
         </nav>
 
         {/* CTA */}
         <a
           href="#contact"
-          className="hidden rounded-full bg-[#c9a45c] px-5 py-2.5 text-sm font-medium text-[#07111f] transition hover:scale-[1.02] hover:bg-[#d6b775] md:block"
+          className="hidden rounded-full bg-[#C8A24A] px-5 py-2.5 text-sm font-medium text-[#0B2E59] transition duration-300 hover:-translate-y-0.5 hover:bg-[#d6b775] md:block"
         >
-          Book a Demo
+          Book a Consultation
         </a>
 
         {/* Mobile Menu Button */}

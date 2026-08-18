@@ -29,13 +29,13 @@ function Problem() {
   return (
     <section
       id="problem"
-      className="bg-white px-6 py-20 text-[#07111f] lg:px-8 lg:py-24"
+      className="bg-white px-6 py-20 text-[#0B2E59] lg:px-8 lg:py-24"
     >
       <div className="mx-auto max-w-7xl">
         {/* Introduction */}
         <div className="grid gap-8 lg:grid-cols-[0.9fr_1.1fr] lg:items-end">
           <div>
-            <p className="text-xs font-semibold uppercase tracking-[0.22em] text-[#b58d45]">
+            <p className="text-xs font-semibold uppercase tracking-[0.22em] text-[#C8A24A]">
               The Problem
             </p>
 
@@ -58,11 +58,11 @@ function Problem() {
               key={problem.number}
               className="group border-b border-slate-200 px-5 py-7 transition-all duration-300 hover:bg-slate-50 sm:min-h-56 sm:border-r lg:border-b-0 lg:px-6"
             >
-              <span className="text-xs font-semibold text-[#b58d45]">
+              <span className="text-xs font-semibold text-[#C8A24A]">
                 {problem.number}
               </span>
 
-              <h3 className="mt-6 text-lg font-semibold transition-colors duration-300 group-hover:text-[#b58d45]">
+              <h3 className="mt-6 text-lg font-semibold transition-colors duration-300 group-hover:text-[#C8A24A]">
                 {problem.title}
               </h3>
 
@@ -70,13 +70,13 @@ function Problem() {
                 {problem.description}
               </p>
 
-              <div className="mt-5 h-px w-6 bg-[#b58d45]/50 transition-all duration-300 group-hover:w-12" />
+              <div className="mt-5 h-px w-6 bg-[#C8A24A]/50 transition-all duration-300 group-hover:w-12" />
             </article>
           ))}
         </div>
 
         {/* Transition */}
-        <div className="mt-14 max-w-3xl border-l-2 border-[#b58d45] pl-5 lg:mt-16">
+        <div className="mt-14 max-w-3xl border-l-2 border-[#C8A24A] pl-5 lg:mt-16">
           <p className="text-xl font-medium leading-8 tracking-[-0.015em] sm:text-2xl">
             Aurevia turns fragmented business data into a clearer picture of
             what is happening — and what needs attention.

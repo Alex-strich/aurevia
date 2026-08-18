@@ -7,11 +7,12 @@ import AutomationDemo from "./components/AutomationDemo"
 import HowItWorks from "./components/HowItWorks"
 import WhyAurevia from "./components/WhyAurevia"
 import FinalCTA from "./components/FinalCTA"
+import WhoWeServe from "./components/WhoWeServe"
 import Footer from "./components/Footer"
 
 function App() {
   return (
-    <div className="min-h-screen bg-[#07111f]">
+    <div className="min-h-screen bg-[#0B2E59]">
       <Navbar />
 
       <main>
@@ -22,6 +23,7 @@ function App() {
         <AutomationDemo/>
         <HowItWorks/>
         <WhyAurevia/>
+        <WhoWeServe/>
         <FinalCTA/>
         <Footer/>
       </main>
