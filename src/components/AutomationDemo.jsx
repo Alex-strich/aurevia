@@ -218,14 +218,14 @@ function AutomationDemo() {
 
                 {/* Insight */}
                 <div className="flex items-center gap-4">
-                  <div className="flex h-14 w-14 shrink-0 items-center justify-center rounded-xl bg-[#C8A24A] text-xs font-semibold text-[#0B2E59]">
+                  <div className="flex h-14 w-14 shrink-0 items-center justify-center rounded-xl border border-[#C8A24A]/20 bg-[#C8A24A]/10 text-xs text-[#C8A24A]">
                     ACT
                   </div>
+                  
+                  <div className="h-px flex-1 bg-gradient-to-r from-[#C8A24A]/60 to-white/10" />
 
-                  <div className="h-px flex-1 bg-gradient-to-r from-[#C8A24A] to-white/10" />
-
-                  <div className="rounded-xl border border-[#C8A24A]/30 bg-[#C8A24A]/5 px-5 py-3">
-                    <p className="text-[10px] uppercase tracking-[0.12em] text-[#C8A24A]/60">
+                  <div className="rounded-xl border border-white/10 bg-[#0B2E59] px-5 py-3">
+                    <p className="text-[10px] uppercase tracking-[0.12em] text-white/30">
                       Insight
                     </p>
 
@@ -245,7 +245,7 @@ function AutomationDemo() {
             <span className="text-white">Connect.</span>{" "}
             <span className="text-white">Automate.</span>{" "}
             <span className="text-white">Analyse.</span>{" "}
-            <span className="text-[#C8A24A]">Act.</span>
+            <span className="text-white">Act.</span>{" "}
           </p>
         </div>
       </div>

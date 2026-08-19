@@ -12,12 +12,14 @@ function Solution() {
     },
     {
       number: "02",
-      title: "Business Visibility",
+      title: "Management Intelligence",
       items: [
         "Executive Dashboards",
-        "KPI Reporting",
-        "Profitability Analysis",
-        "Management Reporting Systems",
+        "Management Reporting",
+        "KPI & Performance Analytics",
+        "Budget vs Actual Analysis",
+        "Sales & Operational Performance",
+        "Executive Insights",
       ],
     },
     {
@@ -26,6 +28,8 @@ function Solution() {
       items: [
         "Financial Process Improvement",
         "Reporting Automation",
+        "Excel & Spreadsheet Automation",
+        "Finance Workflow Automation",
         "Data Consolidation",
         "Finance Systems Optimization",
       ],
@@ -48,7 +52,7 @@ function Solution() {
           </h2>
 
           <p className="mt-6 max-w-2xl text-base leading-7 text-white/65">
-            Aurevia combines financial leadership, business visibility and
+            Aurevia combines financial leadership, management intelligence and
             finance transformation to help growing businesses understand
             performance and act with confidence.
           </p>
@@ -87,4 +91,4 @@ function Solution() {
   )
 }
 
-export default Solution
+export default Solution 
