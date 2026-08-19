@@ -36,7 +36,7 @@ function HowItWorks() {
         <div className="flex flex-col gap-5 lg:flex-row lg:items-end lg:justify-between">
           <div className="max-w-3xl">
             <p className="text-sm font-medium uppercase tracking-[0.22em] text-[#C8A24A]">
-              How It Works
+              How We Work
             </p>
 
             <h2 className="mt-4 text-4xl font-semibold leading-tight tracking-[-0.03em] sm:text-5xl">

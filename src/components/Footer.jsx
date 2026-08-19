@@ -2,7 +2,7 @@ function Footer() {
   const navigation = [
     { label: "Solutions", href: "#solutions" },
     { label: "Platform", href: "#platform" },
-    { label: "How It Works", href: "#how-it-works" },
+    { label: "How We Work", href: "#how-it-works" },
     { label: "About", href: "#about" },
   ]
 

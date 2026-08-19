@@ -46,7 +46,7 @@ function Navbar() {
             href="#how-it-works"
             className="text-sm text-white/70 transition hover:text-white"
           >
-            How It Works
+            How We Work
           </a>
 
           <a
@@ -116,7 +116,7 @@ function Navbar() {
               onClick={closeMenu}
               className="text-sm text-white/75 transition hover:text-white"
             >
-              How It Works
+              How We Work
             </a>
 
             <a
